@@ -111,30 +111,31 @@ setTime();
 
 // create input when reached the end score, could also create another div in questions.html. select it and when game is over, initials.innerHTML = input(initials) button to save. on save grab value from input and add it to an array that you got from local storage and then update local storage with that array. if highscores is available if not create empty array called highscores or w.e. convert to json using stringify, to get it back .parse it.
 
-var highscores = {};
-
+var highscores = [];
 if (localStorage.getItem("high") !== null) {
   highscores = JSON.parse(localStorage.getItem("high"));
 }
-
 function displayHighscores() {
-  Object.keys(highscores)
-    .sort(function (a, b) {
-      return b - a;
-    })
-    .forEach(function (key) {
-      // console.log(key);
-      var li = document.createElement("LI");
-      li.classList.add("li-score");
-      li.innerHTML = `${highscores[key]} : ${key}`;
-      scoresDisplay.appendChild(li);
-    });
+  if (highscores.length > 0) {
+    // console.log("highscores", highscores);
+    highscores
+      .sort(function ([, a], [, b]) {
+        return b - a;
+      })
+      .forEach(function (key) {
+        // console.log(key);
+        var li = document.createElement("LI");
+        li.classList.add("li-score");
+        li.innerHTML = `${key[0]} : ${key[1]}`;
+        scoresDisplay.appendChild(li);
+      });
+  }
 }
-
 save.addEventListener("click", function () {
-  highscores[calcScore] = initials.value;
-  document.querySelectorAll("li-score").forEach(function (li) {
-    console.log(li);
+  const nScore = [initials.value, calcScore];
+  highscores.push(nScore);
+  [...document.querySelectorAll(".li-score")].forEach(function (li) {
+    // console.log("li", li);
     li.remove();
   });
   displayHighscores();

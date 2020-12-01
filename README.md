@@ -24,5 +24,7 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Screenshots
+<img width="868" alt="Screen Shot 2020-12-01 at 10 50 30 AM" src="https://user-images.githubusercontent.com/66789135/100780412-ed238000-33c6-11eb-97e9-aee44c2e3ae2.png">
+<img width="808" alt="Screen Shot 2020-12-01 at 11 17 57 AM" src="https://user-images.githubusercontent.com/66789135/100780419-ef85da00-33c6-11eb-8ce6-13fb8ed55303.png">
+<img width="792" alt="Screen Shot 2020-12-01 at 11 18 12 AM" src="https://user-images.githubusercontent.com/66789135/100780424-f0b70700-33c6-11eb-8f74-82c16cfe05ef.png">
 
-<img width="868" alt="Screen Shot 2020-12-01 at 10 50 30 AM" src="https://user-images.githubusercontent.com/66789135/100778455-43db8a80-33c4-11eb-9e15-c9a5fb5e414a.png">

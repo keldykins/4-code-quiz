@@ -2,18 +2,10 @@
 
 ## Description
 
-Code Quiz is an app that gives the user a timed quiz with multiple choice questions relating to coding. The submitted app still needs to have a timer added, show a high scores page, display questions and whether choices were correct and have most of its functionality.
-
-## Deployed
-https://keldykins.github.io/4-code-quiz/
-
-## Installation
-
-Open Code Quiz in browser and click start quiz to begin answering questions.
+Code Quiz is an app that gives the user a timed quiz with multiple choice questions relating to coding.
 
 ## Usage
-
-Test your knowledge on random code questions in a timed limit and add scores to highscore page.
+https://keldykins.github.io/code-quiz/
 
 ## Contact
 
@@ -30,3 +22,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Screenshots
+
+<img width="868" alt="Screen Shot 2020-12-01 at 10 50 30 AM" src="https://user-images.githubusercontent.com/66789135/100778455-43db8a80-33c4-11eb-9e15-c9a5fb5e414a.png">
